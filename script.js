@@ -22,7 +22,7 @@ document.getElementById('register-form').addEventListener('submit', async (e) =>
   messageDiv.textContent = '';
 
   try {
-    const response = await fetch('https://registration-api.your-username.workers.dev/register', {
+    const response = await fetch('https://registration-api.anurag-275.workers.dev/register', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password }),
